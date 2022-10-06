@@ -18,6 +18,8 @@ def user(user):
 def email(email):
     os.chdir(drt + "/holehe")
     os.system("holehe " + email)
+    os.chdir(drt + "/Infoga")
+    os.system("python3 infoga.py --info " + email + " -v 3")
     os.chdir(drt + "/theHarvester")
     domain = email.split("@",1)
     domain = domain[1]
