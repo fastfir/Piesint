@@ -16,4 +16,6 @@ elif attack == "user":
 elif attack == "email":
     email = input("Enter the email:")
     scripts.email(email)
-
+elif attack == "ip":
+    ip = input("Enter the ip:")
+    scripts.ip(ip)
