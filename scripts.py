@@ -24,7 +24,9 @@ def email(email):
     domain = email.split("@",1)
     domain = domain[1]
     os.system("python3 theHarvester.py -d " + domain + " -b all")
-def ip(ip)
+def ip(ip):
     os.chdir(drt + "/nmap")
     os.system("./nmap -oX " + drt + "/nmap.xml -Pn " + ip)
-    
+def name(name,lname):
+    os.chdir(drt + "/DaProfiler")
+    os.system("python3 profiler.py -n " + name + " -l " + lname)
