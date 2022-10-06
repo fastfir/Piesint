@@ -45,3 +45,9 @@ except:
     os.system("git clone https://github.com/laramies/theHarvester")
 try:
     os.chdir(direc + "/Infoga")
+except:
+    os.system("git clone https://github.com/m4ll0k/Infoga")
+try:
+    os.chdir(direc + "/DaProfiler")
+except:
+    os.system("git clone https://github.com/daprofiler/DaProfiler")
