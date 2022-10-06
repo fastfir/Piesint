@@ -19,3 +19,7 @@ elif attack == "email":
 elif attack == "ip":
     ip = input("Enter the ip:")
     scripts.ip(ip)
+elif attack == "name":
+    name = input("Enter the first name:")
+    lname = input("Enter the last name:")
+    scripts.name(name,lname)
