@@ -17,6 +17,8 @@ Holehe - https://github.com/megadose/holehe
 
 Anubis - https://github.com/jonluca/Anubis
 
+Infoga - https://github.com/m4ll0k/Infoga
+
 Installation:
 
 Simply clone the repository and run setup.py
