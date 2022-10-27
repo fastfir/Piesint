@@ -6,7 +6,7 @@ print(" |     ___/  |/ __ \ /  ___/  |/    \   __\ ")
 print("|    |   |  \  ___/ \___ \|  |   |  \  |  ")
 print("|____|   |__|\___  >____  >__|___|  /__|  ")
 print("                 \/     \/        \/      ")
-attack = input("What are you researching? ")
+attack = input("What are you researching? (user,email,site,ip,name) ")
 if attack == "site":
     site = input("Enter the site: ")
     scripts.site(site)
