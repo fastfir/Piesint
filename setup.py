@@ -38,6 +38,8 @@ try:
 except:
     os.chdir(direc)
     os.system("git clone https://github.com/megadose/holehe")
+    os.chdir(direc + "/holehe")
+    os.system("python3 setup.py install")
 try:
     os.chdir(direc + "/theHarvester")
 except:
@@ -51,7 +53,4 @@ try:
     os.chdir(direc + "/DaProfiler")
 except:
     os.system("git clone https://github.com/daprofiler/DaProfiler")
-try:
-    os.chdir(direc + "/holehe")
-except:
-    os.chdir("git clone https://github.com/megadose/holehe")
+os.system("pip3 install -r reqs.txt")
