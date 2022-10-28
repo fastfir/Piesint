@@ -23,6 +23,7 @@ def email(email):
     os.chdir(drt + "/Infoga")
     os.system("python3 infoga.py --info " + email + " -v 3")
     os.chdir(drt + "/theHarvester")
+    print("Performing domain search for " + email + ":")
     domain = email.split("@",1)
     domain = domain[1]
     os.system("python3 theHarvester.py -d " + domain + " -b all")
