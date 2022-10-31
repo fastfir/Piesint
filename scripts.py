@@ -13,7 +13,7 @@ def user(user):
     os.system("python3 nexfil.py " + user)
     os.chdir(drt + "/maigret")
     os.system("go run maigret.go " + user)
-    os.chdir(drt + "/social-analyzer/pip-social-analyzer/social-analyzer")
+    os.chdir(drt)
     os.system("python3 -m social-analyzer --username " + user + " --metadata --top100")
     os.chdir(drt + "/Investigo")
     os.system("go run investigo.go " + user)
