@@ -19,7 +19,7 @@ try:
     os.chdir(direc + "/social-analyzer")
 except:
     os.chdir(direc)
-    os.system("git clone https://github.com/qeeqbox/social-analyzer")
+    os.system("pip3 install social-analyzer")
 try:
     os.chdir(direc + "/Anubis")
 except:
