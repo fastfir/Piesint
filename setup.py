@@ -53,4 +53,5 @@ try:
     os.chdir(direc + "/DaProfiler")
 except:
     os.system("git clone https://github.com/daprofiler/DaProfiler")
+os.chdir(direc + "/Piesint")
 os.system("pip3 install -r reqs.txt")
