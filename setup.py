@@ -31,8 +31,8 @@ except:
     os.chdir(direc)
     os.system("git clone https://github.com/nmap/nmap")
     os.system("./configure")
-    os.system("make")
-    os.system("make install")
+    os.system("sudo make")
+    os.system("sudo make install")
 try:
     os.chdir(direc + "/holehe")
 except:
