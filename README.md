@@ -1,5 +1,5 @@
 # Piesint
-OSINT script that runs through many different tools with a very clean UI
+OSINT script that runs through many different tools cleanly
 
 Tools used:
 
